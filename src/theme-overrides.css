@@ -1,0 +1,107 @@
+:root {
+  --ink: #ffffff;
+  --ink-soft: #f2f2f0;
+  --cream: #111111;
+  --muted: #666666;
+  --line: rgba(17, 17, 17, 0.16);
+  --gold: #111111;
+  --gold-bright: #000000;
+}
+
+body { background: #ffffff !important; color: #111111 !important; }
+.app-shell { background: #ffffff !important; }
+.site-header, .site-header.is-solid { background: #050505 !important; border-bottom-color: rgba(255,255,255,.16) !important; }
+.site-header .brand, .site-header .desktop-nav a, .site-header .text-link, .site-header .menu-toggle { color: #ffffff !important; }
+.site-header .brand em, .site-header .desktop-nav a.active { color: #ffffff !important; }
+.site-header .brand-mark { color: #ffffff !important; border-color: #ffffff !important; }
+.site-header .brand strong, .site-header .brand em { color: #ffffff !important; }
+.hero { background: linear-gradient(90deg, rgba(0,0,0,.82), rgba(0,0,0,.32)), url('/images/gallery/spot-11-google-maps-hero.jpg') center 58% / cover !important; }
+.hero:after { background: linear-gradient(90deg, rgba(0,0,0,.82), rgba(0,0,0,.18)) !important; }
+.hero-placeholder { display: none; }
+.hero h1, .hero h1 i, .hero-copy, .hero .eyebrow, .scroll-cue { color: #ffffff !important; }
+.hero .button-gold { background: #ffffff !important; color: #111111 !important; }
+.hero .button-ghost { color: #ffffff !important; border-color: rgba(255,255,255,.55) !important; background: rgba(0,0,0,.28) !important; }
+.page-hero { background: #111111 !important; }
+.page-hero h1, .page-hero h1 i, .page-hero-copy, .page-hero .eyebrow { color: #ffffff !important; }
+.section, .section-intro, .menu-preview, .menu-page, .gallery-page, .reviews-page, .about-layout, .reservation-layout, .contact-layout, .contact-preview { background: #ffffff !important; color: #111111 !important; }
+.section h2, .experience-copy h2, .contact-preview h2, .reservation-layout h2, .contact-card h2, .section h3, .menu-card-copy h3 { color: #111111 !important; }
+.section h2 i, .experience-copy h2 i, .contact-preview h2 i, .reservation-layout h2 i, .contact-card h2 i, .section h3 i, .menu-card-copy h3 i { color: #111111 !important; }
+.eyebrow, .number, .phone-link, .under-link { color: #111111 !important; border-color: #111111 !important; }
+.lead, .experience-copy > p:not(.eyebrow), .contact-preview p, .menu-card-copy p, .detail-section p { color: #666666 !important; }
+.experience-band, .reservation-cta { background: #111111 !important; color: #ffffff !important; }
+.experience-band h2, .experience-band h2 i, .experience-band .eyebrow, .experience-band .experience-copy > p:not(.eyebrow) { color: #ffffff !important; }
+.experience-band .button-outline { color: #ffffff !important; border-color: rgba(255,255,255,.55) !important; }
+.quick-actions { background: #ffffff !important; border-color: rgba(17,17,17,.18) !important; }
+.quick-actions a { color: #111111 !important; border-color: rgba(17,17,17,.16) !important; }
+.menu-preview-card, .menu-item, .listing-card, .contact-card { background: #f2f2f0 !important; color: #111111 !important; }
+.menu-card-art, .photo-placeholder, .listing-art, .menu-item-art { background: #e8e8e5 !important; color: #666666 !important; }
+.empty-panel, .detail-section { border-color: rgba(17,17,17,.16) !important; }
+.empty-panel strong, .empty-panel p, .empty-panel svg { color: #111111 !important; }
+.status-pill { color: #111111 !important; border-color: rgba(17,17,17,.3) !important; }
+.review-band { background: #f2f2f0 !important; color: #111111 !important; }
+.review-band .eyebrow, .review-band h2, .review-band h2 i, .review-empty, .review-empty .under-link { color: #111111 !important; border-color: #111111 !important; }
+.reservation-cta h2, .reservation-cta h2 i, .reservation-cta .eyebrow, .reservation-cta p:not(.eyebrow) { color: #ffffff !important; }
+.button-gold { background: #111111 !important; color: #ffffff !important; }
+.button-gold:hover { background: #333333 !important; }
+.button-outline { color: #111111 !important; border-color: rgba(17,17,17,.4) !important; }
+.button-disabled { color: #999 !important; background: #292929 !important; }
+.search-box { color: #666666 !important; border-color: rgba(17,17,17,.25) !important; }
+.search-box input { color: #111111 !important; }
+.category-tabs button, .gallery-filters button { color: #555555 !important; border-color: rgba(17,17,17,.2) !important; background: #ffffff !important; }
+.category-tabs button.active, .category-tabs button:hover, .gallery-filters button.active { color: #ffffff !important; background: #111111 !important; border-color: #111111 !important; }
+.gallery-tile { background: #dededb !important; }
+.gallery-tile img, .lightbox img, .hero { filter: none !important; }
+.gallery-tile:after { background: linear-gradient(180deg, transparent 45%, rgba(0,0,0,.78)) !important; }
+.map-placeholder, .experience-art { border-color: rgba(17,17,17,.25) !important; background: #e8e8e5 !important; }
+.reservation-form input, .reservation-form select, .reservation-form textarea { background: #f7f7f5 !important; color: #111111 !important; border-color: rgba(17,17,17,.22) !important; }
+.reservation-form label, .reservation-form small { color: #666666 !important; }
+.success-panel, .empty-state { color: #111111 !important; border-color: rgba(17,17,17,.25) !important; }
+.success-panel h3, .empty-state h3 { color: #111111 !important; }
+.success-panel p, .empty-state p { color: #666666 !important; }
+.floating-actions a { background: #111111 !important; color: #ffffff !important; }
+.site-footer { background: #050505 !important; color: #ffffff !important; }
+.site-footer .brand, .site-footer .footer-label, .site-footer a, .site-footer p, .site-footer .footer-bottom { color: #ffffff !important; }
+.site-footer .footer-label { opacity: .7; }
+.site-footer .brand em { color: #ffffff !important; }
+.site-footer .footer-bottom { border-color: rgba(255,255,255,.2) !important; }
+.gallery-preview .photo-placeholder img, .about-photo img { width: 100%; height: 100%; min-height: inherit; object-fit: cover; display: block; filter: none !important; }
+.site-header { animation: header-enter .7s cubic-bezier(.22,1,.36,1) both; }
+.hero { animation: hero-settle 1.2s cubic-bezier(.22,1,.36,1) both; }
+.quick-actions a, .under-link, .button, .desktop-nav a, .mobile-menu a { transition: color .25s ease, background-color .25s ease, border-color .25s ease, transform .25s ease; }
+.quick-actions a:hover { transform: translateY(-3px); }
+.gallery-tile, .menu-item, .listing-card, .review-tile { transition: transform .45s cubic-bezier(.22,1,.36,1), box-shadow .45s ease; }
+.gallery-tile:hover, .menu-item:hover, .listing-card:hover, .review-tile:hover { transform: translateY(-6px); box-shadow: 0 18px 42px rgba(0,0,0,.12); }
+.gallery-tile img, .gallery-preview .photo-placeholder img, .about-photo img { transition: transform .8s cubic-bezier(.22,1,.36,1); }
+.gallery-tile:hover img, .gallery-preview .photo-placeholder:hover img, .about-photo:hover img { transform: scale(1.045); }
+.hero .hero-placeholder { animation: hero-photo-enter 1.4s .15s cubic-bezier(.22,1,.36,1) both; }
+.hero .hero-content > * { animation: content-rise .8s cubic-bezier(.22,1,.36,1) both; }
+.hero .hero-content > *:nth-child(2) { animation-delay: .08s; }
+.hero .hero-content > *:nth-child(3) { animation-delay: .16s; }
+.hero .hero-content > *:nth-child(4) { animation-delay: .24s; }
+.page-hero h1 { text-wrap: balance; }
+@keyframes header-enter { from { opacity: 0; transform: translateY(-18px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes hero-settle { from { opacity: .72; } to { opacity: 1; } }
+@keyframes hero-photo-enter { from { opacity: 0; transform: translateX(24px) rotate(3deg) scale(.96); } to { opacity: 1; transform: translateX(0) rotate(3deg) scale(1); } }
+@keyframes content-rise { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
+@media (prefers-reduced-motion: reduce) { .site-header, .hero, .hero .hero-placeholder, .hero .hero-content > * { animation: none !important; } .gallery-tile, .menu-item, .listing-card, .review-tile, .gallery-tile img, .gallery-preview .photo-placeholder img, .about-photo img { transition: none !important; } }
+.rating-placeholder { border-color: rgba(17,17,17,.16) !important; color: #111111 !important; }
+.rating-placeholder strong, .rating-placeholder span { color: #111111 !important; }
+.rating-placeholder .under-link { margin-left: auto; }
+.review-tiles { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+.review-tile { min-height: 285px; padding: 26px; border: 1px solid rgba(17,17,17,.14); background: #f7f7f5; display: flex; flex-direction: column; }
+.review-tile-top, .review-author { display: flex; justify-content: space-between; gap: 14px; align-items: center; }
+.review-stars { color: #111111; letter-spacing: .12em; font-size: 13px; }
+.review-source, .review-author span { color: #777777; font-size: 10px; text-transform: uppercase; letter-spacing: .12em; }
+.review-tile p { color: #333333; font: 18px/1.55 var(--serif); margin: 28px 0; }
+.review-author { margin-top: auto; align-items: end; }
+.review-author strong { color: #111111; font-size: 12px; }
+.review-pagination { display: flex; justify-content: center; align-items: center; gap: 22px; margin-top: 36px; color: #555555; font-size: 12px; }
+.review-pagination button { min-width: 90px; padding: 10px 12px; border: 1px solid rgba(17,17,17,.2); background: #ffffff; color: #111111; cursor: pointer; }
+.review-pagination button:hover:not(:disabled) { background: #111111; color: #ffffff; }
+.review-pagination button:disabled { color: #aaa; cursor: not-allowed; }
+.review-disclaimer { margin: 26px auto 0; color: #777777; font-size: 11px; text-align: center; }
+.preview-rating { display: flex; align-items: center; gap: 10px; color: #111111; }
+.preview-rating strong { font: 500 34px/1 var(--serif); }
+.preview-rating span { font-size: 12px; }
+.preview-review-actions { display: flex; gap: 20px; flex-wrap: wrap; }
+@media (max-width: 900px) { .review-tiles { grid-template-columns: 1fr; } .rating-placeholder { align-items: start; flex-wrap: wrap; } .rating-placeholder .under-link { margin-left: 0; width: 100%; } }

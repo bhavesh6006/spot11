@@ -1,0 +1,25 @@
+export interface OpeningHour { day: string; open: string; close: string }
+
+export const restaurantConfig = {
+  name: 'Spot 11 Enjoy',
+  tagline: 'Family Restaurant · Bar · Dining',
+  description: 'A family restaurant, bar and dining destination in Dhanori, Pune.',
+  phone: '+91 95450 93666',
+  whatsapp: '919545093666',
+  email: '',
+  address: ['Gini Belvista', 'D.N. Parande Park', 'Dhanori, Pune, Maharashtra 411015', 'India'],
+  googleMapsUrl: 'https://www.google.com/maps/place/Spot+11+Enjoy/@18.6101652,73.9026076,17z',
+  googleMapsEmbedUrl: 'https://www.google.com/maps?q=18.6101652,73.9026076&z=16&output=embed',
+  latitude: 18.6101652,
+  longitude: 73.9026076,
+  googlePlaceId: '',
+  googleBusinessProfileId: '',
+  swiggyUrl: 'https://www.swiggy.com/city/pune/spot11-enjoy-family-resto-and-bar-lohgaon-rest975349',
+  zomatoUrl: 'https://www.zomato.com/pune/spot-11-enjoy-family-resto-bar-dhanori',
+  instagramUrl: '',
+  facebookUrl: '',
+  youtubeUrl: '',
+  rating: '4.5',
+  reviewCount: '217',
+  openingHours: [] as OpeningHour[],
+}

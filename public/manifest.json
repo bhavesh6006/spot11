@@ -1,0 +1,10 @@
+{
+  "name": "Spot 11 Enjoy",
+  "short_name": "Spot 11",
+  "description": "Family restaurant, bar and dining in Dhanori, Pune.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f1110",
+  "theme_color": "#0f1110",
+  "icons": []
+}
