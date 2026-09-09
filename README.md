@@ -26,6 +26,10 @@ npm run preview
 
 The app is a static frontend and can deploy to Vercel, Netlify, GitHub Pages or Cloudflare Pages. Configure the SPA fallback to serve `index.html` for client-side routes.
 
+### GitHub Pages
+
+The repository includes `.github/workflows/deploy-pages.yml`. In GitHub, open `Settings > Pages`, choose `GitHub Actions` as the source, and make sure Actions are enabled for the repository. Pushes to `main` then deploy to `https://bhavesh6006.github.io/spot11/`. The Vite base path is already configured for this project URL.
+
 ## Content updates
 
 All restaurant content is separated from the UI in `src/data/`:
